@@ -1,0 +1,40 @@
+{
+  "name": "gif-me-info",
+  "version": "1.0.0",
+  "description": "Promise based extension of gify-parse returning gif statistics for single or array of gif urls.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require babel-register --require babel-polyfill --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Streed12/gif-me-info.git"
+  },
+  "keywords": [
+    "gif",
+    "gif information",
+    "gif height",
+    "gif duration",
+    "gifs",
+    "gif dimensions",
+    "gif info",
+    "gif frames"
+  ],
+  "author": "Steven Reed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Streed12/gif-me-info/issues"
+  },
+  "homepage": "https://github.com/Streed12/gif-me-info#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "gify-parse": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.23.0",
+    "babel-register": "^6.24.1",
+    "chai": "^4.0.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^3.4.2"
+  }
+}
