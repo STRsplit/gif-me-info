@@ -11,7 +11,7 @@ Provides promised results for [gify-parse](https://github.com/JonasHavers/node-g
 ## Authors
 
   - [Eugene Shifrin](https://github.com/eshifrin)
-  - [Steven Reed](https://github.com/Streed12)
+  - [Steven Reed](https://github.com/STRsplit)
 
 ## Table of Contents
 
@@ -138,5 +138,5 @@ This is just an encapsulation of the gify-parse package (which does the bulk of 
 
 ## Acknowledgments
 - [axios](https://www.npmjs.com/package/axios) by [Nick Uraltsev](https://github.com/nickuraltsev) & [mzabriskie](https://github.com/mzabriskie) for gif request.
-- [Jonas Havers](https://github.com/JonasHavers) - Jonah's [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
+- [Jonas Havers](https://github.com/JonasHavers) - Jonas' [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
 
