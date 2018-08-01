@@ -1,7 +1,7 @@
 const gifyParse = require('gify-parse');
 const axios = require('axios');
 
-const urlsValid = (url) => {
+const urlValid = (url) => {
   return (/.*\.gif$/).test(url) && (/^http(s)?:\/\//).test(url)
 }
 
