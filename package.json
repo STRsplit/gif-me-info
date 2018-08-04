@@ -1,6 +1,6 @@
 {
   "name": "gif-me-info",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Promise based extension of gify-parse returning gif statistics for single or array of gif urls.",
   "main": "index.js",
   "scripts": {
