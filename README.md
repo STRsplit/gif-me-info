@@ -8,6 +8,9 @@ npm i gif-me-info
 ## Notes
 Provides promised results for [gify-parse](https://github.com/JonasHavers/node-gify-parse) allowing users to get information for a single gif url or an array of gif urls.
 
+### Updates:
+  - 1.0.3: removed axios dependency in favor of smaller node-fetch
+
 ## Authors
 
   - [Eugene Shifrin](https://github.com/eshifrin)
@@ -131,12 +134,11 @@ const promiseExample = () => {
 All of the properties provided by [gify-parse](https://www.npmjs.com/package/gify-parse#info-properties) module. 
 
 ## Requirements
-- Node 7.6
+- Node >= 8
 
 ## Contributing
 This is just an encapsulation of the gify-parse package (which does the bulk of the work) created for another project, but if you would like to contribute please make a pull request with your work. Feel free to contact me and introduce yourself as well.
 
 ## Acknowledgments
-- [axios](https://www.npmjs.com/package/axios) by [Nick Uraltsev](https://github.com/nickuraltsev) & [mzabriskie](https://github.com/mzabriskie) for gif request.
 - [Jonas Havers](https://github.com/JonasHavers) - Jonas' [gify-parse](https://github.com/JonasHavers/node-gify-parse) based on [Ryan French's](https://github.com/rfrench/) [gify](https://github.com/rfrench/gify) is the core of the module, we just encapsulated it for a very specific need. 
 

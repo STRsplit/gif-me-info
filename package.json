@@ -1,10 +1,14 @@
 {
   "name": "gif-me-info",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Promise based extension of gify-parse returning gif statistics for single or array of gif urls.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "scripts": {
-    "test": "mocha --require babel-register --require babel-polyfill --recursive"
+    "test": "mocha --require @babel/register --require @babel/polyfill --recursive",
+    "build": "babel index.js --out-dir lib"
   },
   "repository": {
     "type": "git",
@@ -23,16 +27,19 @@
   "author": "Steven Reed",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Streed12/gif-me-info/issues"
+    "url": "https://github.com/STRsplit/gif-me-info/issues"
   },
-  "homepage": "https://github.com/Streed12/gif-me-info#readme",
+  "homepage": "https://github.com/STRsplit/gif-me-info#readme",
   "dependencies": {
-    "axios": "^0.16.2",
-    "gify-parse": "^1.0.6"
+    "gify-parse": "^1.0.6",
+    "node-fetch": "^2.6.0"
   },
   "devDependencies": {
-    "babel-polyfill": "^6.23.0",
-    "babel-register": "^6.24.1",
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/polyfill": "^7.8.7",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/register": "^7.9.0",
     "chai": "^4.0.2",
     "chai-as-promised": "^7.1.1",
     "mocha": "^3.4.2"
